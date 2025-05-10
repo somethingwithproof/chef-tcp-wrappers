@@ -4,7 +4,7 @@ updates:
   - package-ecosystem: github-actions
     directory: "/"
     schedule:
-      interval: monthly
+      interval: daily
     open-pull-requests-limit: 10
     labels:
       - "dependencies"
@@ -15,7 +15,7 @@ updates:
   - package-ecosystem: bundler
     directory: "/"
     schedule:
-      interval: monthly
+      interval: weekly
     open-pull-requests-limit: 10
     labels:
       - "dependencies"
