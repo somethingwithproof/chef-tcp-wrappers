@@ -1,0 +1,22 @@
+---
+version: 2
+updates:
+  - package-ecosystem: "bundler"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+    assignees:
+      - "thomasvincent"
+    reviewers:
+      - "thomasvincent"
+    open-pull-requests-limit: 5
+    
+  - package-ecosystem: "github-actions"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+    assignees:
+      - "thomasvincent"
+    reviewers:
+      - "thomasvincent"
+    open-pull-requests-limit: 5
